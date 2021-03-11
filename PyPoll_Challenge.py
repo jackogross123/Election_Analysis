@@ -131,6 +131,7 @@ with open(file_to_save, "w") as txt_file:
         # Print each candidate's voter count and percentage to the
         # terminal.
         print(candidate_results)
+        
         #  Save the candidate results to our text file.
         txt_file.write(candidate_results)
 
